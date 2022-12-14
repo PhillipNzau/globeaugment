@@ -1,25 +1,19 @@
 import '../style.scss'
-import typescriptLogo from "../typescript.svg";
-import globeLogo from "../globe.svg";
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://www.typescriptlang.org/" target="_blank">
-      <img src="${typescriptLogo}" class="logo vanilla" alt="TypeScript logo" />
-    </a>
-    <a href="https://www.typescriptlang.org/" target="_blank">
-      <img src="${globeLogo}" class="logo vanilla" alt="TypeScript logo" />
-    </a>
-    <h1>Reasech</h1>
-    <div class="card">
-      <button id="counter" type="button"></button>
-      <p class="text-3xl">the hell</p>
-    </div>
-    <p class="read-the-docs">
-      Click on the Vite and TypeScript logos to learn more
-    </p>
-  </div>
+  <section class="w-screen h-screen flex items-center"> 
+  
+      <div class="w-[500px] mx-auto"> 
+          <img src="https://www.lawrenceprospera.org/images/quintana/Page_Under_Construction.jpg" 
+        alt="under construction">
+        
+        <p class="mb-5">Kindly go back home from here</p> 
+        <a href="/" 
+        class="font-bodyFont text-black text-sm border-2 text-white py-2 px-10 rounded" type="button">
+                Home
+              </a>
+      </div>
+        
+        
+  </section>   
 `
