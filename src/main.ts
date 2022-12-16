@@ -192,7 +192,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
           <form class="text-start w-full max-w-sm my__form md:min-h-[300px] p-5">
            <div class="flex items-center space-x-5 mb-10"> 
                 <div class="border-b border-gray-400 py-2">
-                <input class="appearance-none bg-transparent border-none w-full text-white placeholder-gray-400 font-bodyFont font-light placeholder-white mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="First Name" aria-label="First name">
+                <input class="appearance-none bg-transparent border-none w-full text-white placeholder-gray-400 font-bodyFont font-light placeholder-gray-400 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="First Name" aria-label="First name">
              </div>
                 <div class="border-b border-gray-400 py-2">
                 <input class="appearance-none bg-transparent border-none w-full text-white placeholder-gray-400 font-bodyFont font-light mr-3 py-1 px-2 leading-tight focus:outline-none" type="email" placeholder="Email" aria-label="Email">

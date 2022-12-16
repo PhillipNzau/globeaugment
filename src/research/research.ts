@@ -7,7 +7,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
           <img src="https://www.lawrenceprospera.org/images/quintana/Page_Under_Construction.jpg" 
         alt="under construction">
         
-        <p class="mb-5">Kindly go back home from here</p> 
+        <p class="mb-5 font-bodyFont">Kindly go back home from here</p> 
         <a href="/" 
         class="font-bodyFont text-black text-sm border-2 text-white py-2 px-10 rounded" type="button">
                 Home
