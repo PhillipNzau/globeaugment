@@ -212,7 +212,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   </footer>
 `
 new Typed("#headerTxt", {
-    strings: ['Global Augment'],
+    strings: ['GlobeAugment'],
     typeSpeed: 100,
     showCursor: false,
 });
