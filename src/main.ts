@@ -15,7 +15,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <header>
         <nav class="font-bodyFont flex justify-between items-center text-white">
             <a href="/" target="_blank">
-                <img src="/globe.svg" class="logo vanilla" alt="TypeScript logo" />
+                <img src="../public/globe.svg" class="logo vanilla" alt="Globeaugment logo" />
             </a>
             
             <ul class="flex justify-between items-center space-x-5 my__hover">
